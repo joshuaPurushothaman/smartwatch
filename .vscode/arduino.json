@@ -1,5 +1,6 @@
 {
     "sketch": "main.ino",
     "output": "build",
-    "board": "Seeeduino:mbed:xiaonRF52840Sense"
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328"
 }
