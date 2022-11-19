@@ -1,6 +1,8 @@
 {
-    "sketch": "main.ino",
+    "sketch": "test.ino",
     "output": "build",
-    "board": "arduino:avr:nano",
-    "configuration": "cpu=atmega328"
+    "board": "esp32:esp32:nodemcu-32s",
+    "configuration": "FlashFreq=80,UploadSpeed=921600,DebugLevel=none",
+    "port": "COM3",
+    "programmer": "esp32:esptool"
 }
